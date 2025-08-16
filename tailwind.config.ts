@@ -52,6 +52,21 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				calculator: {
+					bg: 'hsl(var(--calculator-bg))',
+					display: 'hsl(var(--calculator-display))',
+					button: 'hsl(var(--calculator-button))',
+					'button-hover': 'hsl(var(--calculator-button-hover))',
+					'button-active': 'hsl(var(--calculator-button-active))',
+					'button-operator': 'hsl(var(--calculator-button-operator))',
+					'button-function': 'hsl(var(--calculator-button-function))'
+				},
+				category: {
+					financial: 'hsl(var(--financial))',
+					health: 'hsl(var(--health))',
+					math: 'hsl(var(--math))',
+					other: 'hsl(var(--other))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
